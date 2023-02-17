@@ -8,7 +8,8 @@
 </head>
 <body>
     <h1>Add a Todo Item:</h1>
-    <form method="post" action="add">
+    <form method="POST" action="add">
+        {% csrf_token %}
         <div>
             <p>
                 <label for="id_name">Name: </label>
