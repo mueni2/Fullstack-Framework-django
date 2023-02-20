@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-j3j-e(rn(u@k3=t+6*m$4o+0$%gcx7vhw2+emp0s6)++b_t%4_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['anmo-django-todo-app.herokuapp.com']
 
 
 # Application definition
